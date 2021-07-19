@@ -4,7 +4,7 @@ import s from './Modal.module.css';
 
 export default class Modal extends Component {
   static propTypes = {
-    closeModalEsc: PropTypes.func,
+    onClose: PropTypes.func,
   }
 
   componentDidMount() {
